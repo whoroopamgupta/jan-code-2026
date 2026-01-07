@@ -1,18 +1,103 @@
-p{
-    color: red;
-    background-color: wheat;
-}
-
-.container p{
-    color: green;
-}
-/* 
-*{
-    background-color: yellow;
-    color: white;
+/* p{
+    font-size: 25px;
+    font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
 } */
 
-body{
-    background-color: grey;
+/* p{
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration: none;
+} */
+
+
+/* p{
+    font-size: 25px;
+    font-size: 2rem;
+} */
+
+/* .container{
+    font-size: 20px;
+}
+
+.conatiner p{
+    font-size: 2em;
+} */
+
+
+/* rem - relative to root (HTML) - ; default - 16px */
+/* em - relative to parent element */
+
+
+
+/* Micro Project */
+
+/* body{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+
+.title{
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+.subtitle{
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+nav a{
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 600;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    background-color: rgb(193, 60, 60);
     color: white;
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* padding-left: 20px;
+    padding-top: 20px; */
+    padding: 20px 10px;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+p{
+    margin: 20px 0px;
+}
+
+nav{
+    /* padding: 10px; */
+    margin-top: 30px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: wheat;
+    margin-right: 20px;
+    font-size: 20px;
 }
